@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental || POLCO</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media_query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="content flex_space">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="navlinks">
+                <ul id="menulist">
+                    <li><a href="#home">home</a> </li>
+                    <li><a href="#about">Shop by catgeory</a> </li>
+                    <li><a href="#rooms">Car Covers</a> </li>
+                    <li><a href="#pages">Motorcycle cover</a> </li>
+                    <li><a href="#news">Car Cover</a> </li>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </ul>
+                <span class="fa fa-bars" onclick="menutoggle()"></span>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="hero">
+        <img src="images/im1.png" width="100%" height="387px" alt="">
+        <p class="text-home">Buy cover for your <br> vehicle in Easy steps <br>with us. </p>
+    </div>
+    <section class="book">
+        <div class="container">
+            <div class="form">
+                <form class="grid">
+                    <input type="text" placeholder="Two Wheeler">
+                    <input type="text" placeholder="Four Wheeler" style="color: rgb(194, 94, 94);">
+                    <select name="cars" id="cars">
+                        <option value="volvo">Select Model</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <select name="cars" id="cars">
+                        <option value="volvo">Select Brand</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" style="margin-top: 55px;">
+        <div class="row">
+            <div class="card" style="background-color:rgb(49, 133, 169);">
+                <div class="column card-content" style="color: white;">
+                    <h1>Harrier </h1>
+                    <p>Car Cover</p>
+                    <button class="first-btn ">Festive Offer</button>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="circle">
+                    <p>65% off</p>
+                </div>
+                <div class="image-container">
+                    <!-- Add your image source here -->
+                    <img src="images/caricon1_1-removebg-preview 1.png" alt="Image">
+                </div>
+            </div>
+
+            <div class="card" style="background-color: rgb(239,220,193);">
+                <div class="column">
+                    <h1>Harrier </h1>
+                    <p>Car Cover</p>
+                    <button class="second-btn ">Festive Offer</button>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="circle">
+                    <p>65% off</p>
+                </div>
+                <div class="image-container">
+                    <!-- Add your image source here -->
+                    <img src="images/caricon1_1-removebg-preview 1.png" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cate-title" style="text-align: center; margin-top: 70px;">
+        <h2 style="font-weight: bold; font-size: 40px; font-style: Poppins;">Top Categories</h2>
+        <p>Explore top rated Car Covers, Pool Covers and High quality Truck Curtains from Polco</p>
+        <div class="row cate">
+            <div class="column">
+                <div class="card" style="width: 200px;">
+                    <img src="images/car1.png" alt="Placeholder Image" class="card-image">
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="background-color: rgb(239,254,243); width: 200px;">
+                    <p class="card-paragraph">Bicycle Cover</p>
+                    <img src="images/car3.png" alt="Placeholder Image" class="card-image">
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="background-color: rgb(239,254,243); width: 200px;">
+                    <p class="card-paragraph">Bicycle Cover</p>
+                    <img src="images/car5.png" alt="Placeholder Image" class="card-image">
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="background-color: rgb(251,245,236); width: 200px;">
+                    <p class="card-paragraph">Auto Rickshaw Cover</p>
+                    <img src="images/car4.png" alt="Placeholder Image" class="card-image">
+                </div>
+            </div>
+            <div class="column">
+                <div class="card" style="background-color: rgb(251,245,236); width: 200px;">
+                    <p class="card-paragraph">Car Cover</p>
+                    <img src="images/car5.png" alt="Placeholder Image" class="card-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <img src="images/Group.png" alt="">
+    </div>
+
+    <div class="icon-group">
+        <div class="icon">
+            <img src="images/Group 11.png" alt="">
+        </div>
+        <div class="icon">
+            <img src="images/Group 11.png" alt="">
+        </div>
+        <div class="icon">
+            <img src="images/Group 11.png" alt="">
+        </div>
+    </div>
+
+    <div class="Testimonial" style="background-color: rgb(243,247,255); text-align: center; margin-top: 50px; ">
+        <h style="margin-top: 30px;">TESTIMONIAL</h>
+        <p style="margin-top: 10px; font-size: 26px;">What Our Clinets Say About Us</p>
+        <div class="testimonial-section container">
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <img src="images/quote.png" alt="">
+                </div>
+                <p class="testimonial-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac magna eu
+                    ipsum interdum feugiat. Ut eget elit nec metus eleifend vulputate.</p>
+                <img src="images/test.webp" alt="Testimonial Image" class="testimonial-image">
+                <p class="testimonial-name">BIPUL</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <img src="images/quote.png" alt="">
+                </div>
+                <p class="testimonial-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac magna eu
+                    ipsum interdum feugiat. Ut eget elit nec metus eleifend vulputate.</p>
+                <img src="images/test.webp" alt="Testimonial Image" class="testimonial-image">
+                <p class="testimonial-name">POLCO</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-icon">
+                    <img src="images/quote.png" alt="">
+                </div>
+                <p class="testimonial-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac magna eu
+                    ipsum interdum feugiat. Ut eget elit nec metus eleifend vulputate.</p>
+                <img src="images/test.webp" alt="Testimonial Image" class="testimonial-image">
+                <p class="testimonial-name">CHHETRI</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container grid">
+            <div class="box">
+                <img src="images/logo.png" alt="">
+
+
+                <div class="icon">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-twitter"></i>
+
+                    <i class="fa fa-instagram"></i>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>Shop</h2>
+                <ul>
+                    <li>Cemera</li>
+                    <li>Games</li>
+                    <li>Wirless Speaker</li>
+                    <li>Pizza Maker</li>
+
+                </ul>
+            </div>
+            <div class="box">
+
+                <ul>
+                    <li>Headphones </li>
+                    <li>Games</li>
+                    <li>Wirless Speaker</li>
+                    <li>Pizza Maker</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>Help</h2>
+                <ul>
+                    <li>Track Your Order</li>
+                    <li>Warranty & Support</li>
+                    <li>Return Policy</li>
+                    <li>FAQS</li>
+
+                </ul>
+            </div>
+
+            <div class="box">
+                <h2>Help</h2>
+                <ul>
+                    <li>About Udrop more</li>
+                    <li>News</li>
+                    <li>Read Our Blogs</li>
+                    <li>Careers</li>
+                    <li>Warranty Policy </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/032d11eac3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

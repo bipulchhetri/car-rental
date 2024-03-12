@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_space {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.first-btn {
+  padding: 15px 40px;
+  background: rgb(22, 170, 233);
+  font-weight: bold;
+  color: black;
+}
+.second-btn {
+  padding: 15px 40px;
+  background: #fff;
+  font-weight: bold;
+  color: black;
+}
+
+.primary-btn {
+  padding: 15px 40px;
+  background: #0f24e6;
+  font-weight: bold;
+  color: white;
+}
+
+.secondary-btn {
+  padding: 15px 40px;
+  background: none;
+  border: 2px solid white;
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+/*--------header---------*/
+header {
+  height: 10vh;
+  line-height: 10vh;
+  padding: 0 20px;
+}
+.logo img {
+  width: 250px;
+}
+header ul {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+header ul li a {
+  color: #000;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: #7fc142;
+}
+
+header i {
+  margin: 0 20px;
+}
+
+header button {
+  padding: 13px 40px;
+}
+
+header .navlinks span {
+  display: none;
+}
+
+.logo img {
+  width: 100px;
+  height: 55px;
+  top: 16px;
+  margin-left: 50px;
+}
+/*--------header---------*/
+/* Book Now */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+input,
+select {
+  outline: none;
+  border: none;
+}
+.form {
+  box-shadow: 0px 10px 5px 0px rgba(186, 186, 186, 1);
+}
+.book {
+  padding-top: 0;
+  padding-bottom: 10px;
+  background: #ffffff;
+  color: #000000;
+}
+
+.book input, select {
+  padding: 20px;
+}
+.book input:nth-last-child(1) {
+  background: #fe8400;
+  color: #fff;
+}
+.book input:nth-child(2) {
+  background: #fe8400;
+}
+input::placeholder:nth-child(2) {
+  color: rgb(255, 255, 255);
+}
+/* hero section */
+.hero {
+  height: 70%;
+}
+.text-home {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  text-align: start;
+  font-size: 35px;
+  color: white;
+}
+
+/* card  */
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  width: 48%;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.circle {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+.column {
+  flex: 1;
+  margin-right: 15px;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* catagories */
+.card-paragraph {
+  text-align: center;
+}
+.card-image {
+  max-width: 70%;
+}
+/* icon */
+.icon-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.icon img {
+  width: 250px;
+}
+
+/* testimonial */
+.testimonial-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.testimonial-card {
+  gap: 10px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 9px 31px 1px rgba(212, 204, 212, 1);
+
+  background-color: #fcfcfc;
+  text-align: center;
+}
+
+.testimonial-icon img {
+  width: 35px;
+}
+.testimonial-paragraph {
+  margin-bottom: 20px;
+}
+
+.testimonial-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+}
+/*--------footer---------*/
+footer {
+  background: #f5f5f7;
+  color: #000000;
+  padding: 10% 0 5% 0;
+}
+
+footer .grid {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+footer p {
+  color: #000000;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+footer .icon i {
+  margin: 20px 20px 20px 0;
+  color: #b6b7b9;
+}
+
+footer h2 {
+  color: #0e0d0d;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+footer li {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
